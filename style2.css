@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+
+}
+
+body{
+  background-color: aqua;
+  
+}
+p{
+  font-family: 'Courier New', Courier, monospace;
+  color: blueviolet;
+  /* align-items: center; */
+  text-align: center;
+}
+
+#main{
+  width: 30%;
+  height: 30%;
+  background-color: black;
+}
+/* Good CSS Writing Style */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Avoid: */
+body{font-family:'Arial',sans-serif;background-color:#f0f0f0;color:#333;}
+
+.container {
+  width: 80%; /* 80% of the parent container */
+  height: 300px;
+}
+
+.container {
+  width: 300px; /* Fixed size */
+  margin-left: 10%; /* Relative to parent container */
+}
+.box {
+  margin: 10px; /* Creates space outside the element */
+  padding: 20px; /* Creates space inside the element */
+}
+.header {
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
